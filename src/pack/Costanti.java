@@ -1,0 +1,47 @@
+package pack;
+
+public class Costanti {
+	public final static String user="root";
+	public final static String password="SanLorenzoBellizzi50.";
+	public final static String url="jdbc:mysql://localhost:3306/newdb";
+	public final static String ControllaQuery="ATTENZIONE....CONTROLLA QUERY";
+	public final static String ControllaConnessioneDB="Controlla Connessione DB";
+	public final static String ControllaChiusuraConnessioneDB="Controlla chiusura connessione DB";
+	public final static String DriverDB="com.mysql.cj.jdbc.Driver";
+	public final static String ControllaFileProperties="ATTENZIONE....ERRORE NELLA LETTURA DEL FILE.\nCONTROLLA PATH.";
+	public final static String ControllaPropertiesNumber="ERRORE....VALORE NON NUMERICO IN UN CAMPO DEL FILE DI PROPERTIES";
+	public final static String ControllaPropertiesCampo="ERRORE....MANCA UN CAMPO NEL FILE DI PROPERTIES";
+	public final static String ErroreCreazioneFile="An errour occured.";
+	public final static String CreazioneOK="File created: ";
+	public final static String FileEsiste="File already exsist...";
+	public final static String ErroreScritturaFile="Errore nella scrittura del file.";
+	public final static String ErroreLetturaFile="Errore nella lettura del file";
+	public final static String Username="USERNAME ERRATO";
+	public final static String CampiObbligatori="MANCANO CAMPI OBBLIGATORI.";
+	public final static String RigaNonConforme="RIGA NON CONFORME.";
+	public final static String CodiceFiscale=" CODICE FISCALE ERRATO.";
+	public final static String DataNascita=" FORMATO DATA DI NASCITA ERRATO.";
+	public final static String LuogoNascita=" LUOGO DI NASCITA ERRATO";
+	public final static String Nome=" NOME ERRATO.";
+	public final static String Cognome=" COGNOME ERRATO.";
+	public final static String path="C:/Users/RagoFr/OneDrive - NTT Data EMEA/Documenti/Temp.txt";
+	public final static String pathFinale="C:/Users/RagoFr/OneDrive - NTT Data EMEA/Documenti/Finale.xlsx";
+	public final static String nomeProperties="nome";
+	public final static String cognomeProperties="cognome";
+	public final static String cfProperties="cf";
+	public final static String usernameProperties="username";
+	public final static String etaProperties="eta";
+	public final static String dataNascitaProperties="dataNascita";
+	public final static String luogoNascitaProperties="luogoNascita";
+	public final static String motivoErroreProperties="motivoErrore";
+	public final static String numeroCampi="numeroCampi";
+	public final static String numeroSplit="numeroSplit";
+	public final static String valoreSeparatore="valoreSeparatore";
+	public final static String headerFinale="headerFinale";
+	public final static String nomeOutputProperties="nomeOutput";
+	public final static String usernameOutputProperties="usernameOutput";
+	public final static String cfOutputProperties="cfOutput";
+	public final static String cognomeOutputProperties="cognomeOutput";
+	public final static String motivoOutputProperties="motivoOutput";
+	public final static String etaOutputProperties="etaOutput";
+}
