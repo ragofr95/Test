@@ -19,6 +19,7 @@ public class Main {
         {
             InputStreamReader in = new InputStreamReader(System.in);
             BufferedReader br = new BufferedReader(in);
+            
             System.out.println("Inserisci il path del file: ");
             posizioneFile = br.readLine();
         }
